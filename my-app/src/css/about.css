@@ -1,0 +1,43 @@
+/*  Krishnaanjana Killamsetty(1002033603)
+varshini kasukurthi(1001868369)
+Abhijith kondapally(1001987674) */
+
+.content {
+  display: block;
+  padding: 2rem;
+  text-align: center;
+
+}
+.single-option {
+ 
+  text-align: justify;
+  gap: 3rem;
+  width: 100%;
+  justify-content:center;
+}
+.info-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.info {
+  color: #47525e;
+  font-size: 22px;
+}
+.more-info {
+  color: #888b8d;
+  max-width: 350px;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.info-image {
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .single-option {
+    width: 100%;
+  }
+}
